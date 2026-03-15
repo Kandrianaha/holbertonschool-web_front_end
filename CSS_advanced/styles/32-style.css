@@ -689,8 +689,6 @@ ul.row {
     width: 100%;
     object-fit: cover;
     vertical-align: bottom;
-    transform: scale(1.2);
-    transition: var(--transition-duration) var(--transition-cubic-bezier);
 }
 
 .card-work .card-inner {
@@ -699,11 +697,11 @@ ul.row {
     left: -0.1rem;
     right: -0.1rem;
     z-index: 1;
+    transition: var(--transition-duration) var(--transition-cubic-bezier);
 }
 
 .card-work:hover .card-inner {
     background-color: rgba(0, 0, 0, 0.7);
-    transition: var(--transition-duration) var(--transition-cubic-bezier);
 }
 
 .card-work .card-title {
@@ -748,5 +746,10 @@ ul.row {
 }
 
 .card-work:hover .card-outer {
-    transform: scale (0.95);
+    transform: scale(0.95);
+}
+
+.card-work::hover .card-image img {
+    transform: scale(1.2);
+    transition: var(--transition-duration) var(--transition-cubic-bezier);
 }
