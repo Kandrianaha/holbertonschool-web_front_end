@@ -521,7 +521,8 @@ ul.row {
     list-style: none;
 }
 
-[class *="col-"] {
+.col-1-3
+.col-1-2 {
     float: left;
     padding: 0.5rem;
 }
