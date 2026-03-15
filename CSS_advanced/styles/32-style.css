@@ -703,7 +703,6 @@ ul.row {
 
 .card-work:hover .card-inner {
     background-color: rgba(0, 0, 0, 0.7);
-    transform: scale(0.95);
 }
 
 .card-work .card-title {
@@ -745,4 +744,8 @@ ul.row {
     color: #efeded;
     font-size: 10rem;
     z-index: -1;
+}
+
+.card-work:hover .card-outer {
+    transform: scale (0.95);
 }
