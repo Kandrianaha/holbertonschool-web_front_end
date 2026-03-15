@@ -568,7 +568,7 @@ ul.row {
     fill: var(--text-color);
 }
 
-.card-services .car-title {
+.card-services .card-title {
     margin: 0;
 }
 
